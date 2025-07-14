@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.hamburger {
+    font-size: 28px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+    color: #092c69;
+}
+
+.sidebar {
+    position: fixed;
+    left: -250px;
+    top: 0;
+    width: 220px;
+    height: 100%;
+    background-color: #092c69;
+    color: white;
+    padding-top: 60px;
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.sidebar.open {
+    left: 0;
+}
+
+.sidebar a {
+    padding: 15px 25px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.sidebar a:hover {
+    background-color: #0d3a8c;
+}

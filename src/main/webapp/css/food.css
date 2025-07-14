@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.background {
+    background-image: url('../images/food1.jpg');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: -1;
+    filter: brightness(0.6);
+}
+
+.heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 30px 0;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.food-form {
+    text-align: center;
+}
+
+.item-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    padding: 0 60px;
+    justify-items: center;
+    margin-bottom: 30px;
+}
+
+.food-card {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.1);
+}
+
+.food-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.item-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.price {
+    font-size: 16px;
+    margin: 5px 0 10px;
+}
+
+.qty-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.qty-controls button {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+.qty-controls input {
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.name-input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 250px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.submit-btn {
+    background-color: orange;
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}

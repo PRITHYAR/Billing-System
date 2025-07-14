@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+/* food_bill.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('../images/food1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f9f9fb;
+    margin: 0;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.bill-container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.datetime {
+    text-align: center;
+    color: #666;
+    font-size: 0.95em;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 20px 0;
+}
+
+.bill-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.bill-table thead {
+    background-color: #092c69;
+    color: white;
+}
+
+.bill-table th,
+.bill-table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.bill-table tbody tr:nth-child(even) {
+    background-color: #f2f4f7;
+}
+
+.totals {
+    text-align: right;
+    font-size: 1rem;
+}
+
+.totals p {
+    margin: 6px 0;
+}
+
+.totals strong {
+    color: #000;
+}
+
+.thanks {
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 10px;
+    color: #444;
+}
+
+.btn-back {
+    display: block;
+    width: fit-content;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #092c69;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-back:hover {
+    background-color: #0d3a8c;
+}

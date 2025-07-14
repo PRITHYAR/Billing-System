@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    padding: 40px;
+     background-image: url('../images/home1.jpg');
+     background-repeat:no repeat;
+     background-position:cover;
+}
+
+h2 {
+    text-align: center;
+    color: #092c69;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #092c69;
+    color: white;
+}
+
+.btn-back {
+    display: block;
+    margin: 30px auto;
+    background-color: #092c69;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}

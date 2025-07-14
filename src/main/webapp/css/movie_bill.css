@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('../images/movie1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.bill-container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.datetime {
+    text-align: center;
+    color: #666;
+    font-size: 0.95em;
+    margin-bottom: 20px;
+}
+
+.details p {
+    font-size: 1.05rem;
+    margin: 10px 0;
+}
+
+.details p b {
+    color: #000;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 20px 0;
+}
+
+.thanks {
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 10px;
+    color: #444;
+}
+
+.btn-back {
+    display: block;
+    width: fit-content;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #092c69;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-back:hover {
+    background-color: #0d3a8c;
+}
